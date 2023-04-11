@@ -45,6 +45,12 @@ button {
   height: 50px;
   cursor: pointer;
 }
+nav button:hover {
+  background-color: rgb(179, 72, 72);
+  color: #ae3a3a;
+  border-radius: 25%;
+  box-shadow: 0 0 15px #bc1c1c;
+}
 
 /* Стили для главной секции */
 main {
@@ -60,6 +66,12 @@ section {
   margin-bottom: 20px;
 }
 
+h1 a:hover {
+  background-color: rgb(187, 149, 149);
+  color: #ae3a3a;
+  border-radius: 25%;
+  box-shadow: 0 0 15px #bc1c1c;
+}
 h2 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -69,7 +81,12 @@ h2 {
 article {
   margin-bottom: 20px;
 }
-
+article h3:hover {
+  background-color: rgb(192, 131, 131);
+  color: #ae3a3a;
+  border-radius: 25%;
+  box-shadow: 0 0 15px #bc1c1c;
+}
 h3 {
   margin-top: 0;
   margin-bottom: 10px;
